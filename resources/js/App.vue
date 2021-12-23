@@ -1,19 +1,23 @@
 <template>
     <div>
-        <h1>Vue app</h1>
+        <router-link to="/"></router-link>
+        <router-view></router-view>
     </div>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+    name: 'App',
     setup () {
         
 
         return {}
     }
-}
+})
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>
