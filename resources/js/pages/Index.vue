@@ -1,15 +1,21 @@
 <template>
     <div>
-        <h1>Homepage</h1>
+       <h3>This is index page</h3> 
     </div>
 </template>
 
-<script>
-    export default {
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+    setup () {
         
+
+        return {}
     }
+})
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>
